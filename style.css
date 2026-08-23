@@ -1,0 +1,109 @@
+body {
+	background-color: #03fcfc;
+	font-family: "Raleway";
+}
+
+h1 {
+	font-size: 22px;
+	text-decoration: underline;
+	pmargin-top: 0px;
+}
+
+h2 {font-size: 18px;
+}
+
+section, nav, footer {
+	border: 2px solid #fc03cf;
+	border-radius: 20px;
+	margin: 20px;
+	padding: 20px;
+	box-shadow: 0 0 15px grey;
+}
+
+footer {
+	text-align: center;
+	background-color: #8f0a03;
+	color: white;
+	font-weight: bold;
+}
+
+nav {
+	background-color: #addbd7;
+	padding: 10px 20px;
+}
+
+nav a {
+	color: white;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+.prva-sekcia {
+	background-color: #008a3c;
+}
+.druha-sekcia {
+	background-color: #b07500;
+}
+
+.obrazok img {
+	width: 100%;
+}
+
+img {
+	border: 2px solid black;
+	border-radius: 20px;
+
+}
+
+.flexbox {
+	display: flex;
+	gap: 20px;
+}
+
+.obrazok-homepage img{
+	width: 200px;
+}
+
+table {
+	width: 100%;
+	border: 1px solid black;
+	margin-top: 20px;
+	font-size: 10px;
+
+}
+
+td {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+th {
+	background-color: black;
+	color: white;
+}
+
+tr:nth-of-type(odd) {
+	background-color: grey;
+}
+
+@media (max-width: 600px) {
+	.flexbox {
+		flex-direction: column;
+	}
+	nav {
+		display: flex;
+		flex-direction: column;
+	}	
+
+	nav a 	{
+		padding-bottom: 10px;
+
+	}
+}
+
+
+
