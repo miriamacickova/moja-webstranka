@@ -49,8 +49,14 @@ nav a:hover {
 	background-color: #e87110;
 }
 
+.obrazok {
+    flex: 1;
+}
+
 .obrazok img {
-	width: 80%;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 
 img {
@@ -66,6 +72,7 @@ img {
 
 .obrazok-homepage img{
 	width: 300px;
+	height: auto;
 }
 
 table {
