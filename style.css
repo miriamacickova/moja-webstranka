@@ -1,5 +1,5 @@
 body {
-	background-color: #03fcfc;
+	background-color: #a3b8b8;
 	font-family: "Raleway";
 }
 
@@ -13,7 +13,7 @@ h2 {font-size: 18px;
 }
 
 section, nav, footer {
-	border: 2px solid #fc03cf;
+	border: 2px solid #18191a;
 	border-radius: 20px;
 	margin: 20px;
 	padding: 20px;
@@ -22,13 +22,13 @@ section, nav, footer {
 
 footer {
 	text-align: center;
-	background-color: #8f0a03;
+	background-color: #d46ec3;
 	color: white;
 	font-weight: bold;
 }
 
 nav {
-	background-color: #addbd7;
+	background-color: #373e45;
 	padding: 10px 20px;
 }
 
@@ -43,14 +43,14 @@ nav a:hover {
 }
 
 .prva-sekcia {
-	background-color: #008a3c;
+	background-color: #348ee3;
 }
 .druha-sekcia {
-	background-color: #b07500;
+	background-color: #e87110;
 }
 
 .obrazok img {
-	width: 100%;
+	width: 80%;
 }
 
 img {
@@ -65,7 +65,7 @@ img {
 }
 
 .obrazok-homepage img{
-	width: 200px;
+	width: 300px;
 }
 
 table {
